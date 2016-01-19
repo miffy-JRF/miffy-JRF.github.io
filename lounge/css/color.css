@@ -1,3 +1,8 @@
+h1 {
+    font-family: 'comic sans';
+    font-weight: bold;
+}
+
 h2.green {
     color: green;
 }
@@ -12,4 +17,8 @@ h2.purple {
 
 h2.red {
     color: red;
+}
+
+p>img {
+    float: left;
 }
