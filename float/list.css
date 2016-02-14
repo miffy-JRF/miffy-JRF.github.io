@@ -1,3 +1,12 @@
+section {
+    position: fixed;
+    top: 0;
+    background-color: #9A5927;
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
 ul li {
     float: left;
     display: block;
@@ -24,4 +33,44 @@ ul li ul {
 
 ul li:hover ul {
     display: block;
+}
+ul li:hover{
+    background-color: #ba7947; 
+    color: #f9f59a; 
+}
+ul li ul li{
+background-color: #f9f59a; 
+color: #9A5827;
+}
+ul li ul li:hover a{
+    color: #9A5927;
+}
+h2{
+    text-align: center;
+    color: #ba7947; 
+    font-size: 32px;
+    line-height: 1.6em;
+    font-weight: 700;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+h4{
+    line-height: 1.4em;
+    font-size:22px;
+    font-weight: 400;
+}
+
+p{
+    line-height: 1.6em;
+}
+
+div.tri{
+    float: left;
+    margin: 30px;
+    text-align: center;
+    width: 28%;
+    background-color: #f9f59a;
 }
